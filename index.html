@@ -1,13 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
 	<meta charset="utf-8">
-	<title>Mon Portfolio</title>
-	<meta name="keywords" content="">
-	<meta name="description" content="">
-	<meta name="author" content="votre nom">
+	<title>Portfolio - Garry KABEYA</title>
+	<meta name="keywords" content="Développeur backend, APIs, Laravel, Django, Python, JavaScript, Flutter, IoT, RDC">
+	<meta name="description" content="Portfolio de Garry KABEYA : projets web, mobile et IoT. Découvrez WenzeTech, Vote Academia et ApkStore.">
+	<meta name="author" content="Garry KABEYA">
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="canonical" href="https://garrykabeya.gonedev.com/">
+
+	<meta property="og:type" content="website">
+	<meta property="og:locale" content="fr_FR">
+	<meta property="og:title" content="Portfolio - Garry KABEYA">
+	<meta property="og:description" content="Développeur backend. Projets web, mobile et IoT : WenzeTech, Vote Academia et ApkStore.">
+	<meta property="og:url" content="https://garrykabeya.gonedev.com/">
+	<meta property="og:image" content="https://garrykabeya.gonedev.com/images/apkstores.png">
+	<meta property="og:image:alt" content="Aperçu ApkStore">
+
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="Portfolio - Garry KABEYA">
+	<meta name="twitter:description" content="Développeur backend. Projets web, mobile et IoT : WenzeTech, Vote Academia et ApkStore.">
+	<meta name="twitter:image" content="https://garrykabeya.gonedev.com/images/apkstores.png">
 	<!-- animate -->
 	<link rel="stylesheet" href="css/animate.min.css">
 	<!-- bootstrap -->
@@ -25,7 +39,7 @@
 <div id="fullpage">
 	<!-- start home -->
 	<div id="home" class="section">
-		<div class="" style="background-color: rgba(0, 0, 0, 0.364); padding-top: 200px; padding-bottom: 200px;">
+		<div class="hero-banner">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-2"></div>
@@ -33,14 +47,14 @@
 						<h3>Bienvenue, Je suis</h3>
 						<h1>Garry KABEYA</h1>
 						<h2 class="rotate">DÉVELOPPEUR BACKEND</h2>
-						<h4 class="">Passionné par le développement de solutions innovantes et élégantes, je transforme vos idées en réalité numérique.</h4>
-						<a href="#work" class="btn btn-default smoothScroll wow fadeInUp" data-wow-delay="1s">Voir mes réalisations</a>
+						<h4 class="">Ingénieur backend orienté APIs sécurisées et performance. Je conçois des solutions fiables avec Laravel, Django, Python et une approche “systèmes & IoT”.</h4>
+						<a href="#projects" class="btn btn-default smoothScroll wow fadeInUp" data-wow-delay="1s">Voir mes réalisations</a>
+						<a href="#contact" class="btn btn-default smoothScroll wow fadeInUp" data-wow-delay="1.2s">Me contacter</a>
 					</div>
 					<div class="col-md-2"></div>
 				</div>
 			</div>
 		</div>
-		
 	</div>
 	<!-- end home -->
 	<!-- start work -->
@@ -96,11 +110,11 @@
 				<div class="col-md-6 col-xs-11 wow fadeInLeft" data-wow-delay="0.9s">
 					<h2>À PROPOS DE MOI</h2>
 					<h4>DÉVELOPPEUR BACKEND</h4>
-					<p>Avec une expérience diversifiée dans le développement web et mobile, je suis dévoué à créer des solutions efficaces et élégantes pour les utilisateurs finaux.</p>
+					<p>Fort d’une expérience en développement web et mobile, je conçois des solutions fiables, sécurisées et performantes, avec une attention particulière à l’architecture et à l’expérience utilisateur.</p>
 					<!-- <p>Je suis toujours à la recherche de nouveaux défis et d'opportunités pour améliorer mes compétences et contribuer à des projets innovants.</p> -->
-					<a href="https://docs.google.com/document/d/1DXZzuaQYNsuO3I1H94tRnB_2XEuwZMbj/export?format=pdf" class="btn btn-default smoothScroll wow fadeInUp" data-wow-delay="1s">
+					<!-- <a href="https://docs.google.com/document/d/1DXZzuaQYNsuO3I1H94tRnB_2XEuwZMbj/export?format=pdf" class="btn btn-default smoothScroll wow fadeInUp" data-wow-delay="1s">
 						<i class="fa fa-download"></i> Télécharger mon CV
-					</a>
+					</a> -->
 				</div>
 				<div class="col-md-6 col-xs-11 wow fadeInRight" data-wow-delay="0.9s">
 					<span class="text-top">Développement Web <small>95%</small></span>
@@ -121,7 +135,7 @@
 	</div>
 	<!-- end about -->
 	<!-- start skills -->
-	<div id="about" class="section">
+	<div id="skills" class="section">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 wow bounce">
@@ -177,41 +191,47 @@
 	</div> -->
 	<!-- end experience -->
 	<!-- start projects -->
-	<div id="about" class="section">
+	<div id="projects" class="section">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 wow bounce">
-					<h2>PROJETS RÉALISÉS</h2>
+					<h2>QUELQUES PROJETS RÉALISÉS</h2>
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-md-4 col-xs-11 wow fadeInUp" data-wow-delay="0.6s">
+				<div class="col-md-4 col-xs-11 wow fadeInUp project-card" data-wow-delay="0.6s">
 					<h3>WenzeTech</h3>
-					<p>Marketplace digitale congolaise offrant une plateforme en ligne sécurisée pour la vente et l'achat de divers produits et services. WenzeTech facilite les transactions commerciales en connectant vendeurs et acheteurs à travers une interface conviviale, promouvant ainsi l'économie locale en République Démocratique du Congo.</p>
+					<p class="project-desc">Marketplace digitale congolaise offrant une plateforme en ligne sécurisée pour la vente et l'achat de divers produits et services. WenzeTech facilite les transactions commerciales en connectant vendeurs et acheteurs à travers une interface conviviale, promouvant ainsi l'économie locale en République Démocratique du Congo.</p>
 					
-					<img src="https://wenzetech-file.s3.amazonaws.com/test/zGBEXxZbHJkOIe6eZYPysEoN1dFrscR2JGop64xY.png" class="img-responsive" alt="portfolio img">
+					<div class="project-media">
+						<img src="https://wenzetech-file.s3.amazonaws.com/test/zGBEXxZbHJkOIe6eZYPysEoN1dFrscR2JGop64xY.png" class="img-responsive" alt="Capture d'écran WenzeTech" loading="lazy" decoding="async">
+					</div>
 					<!-- <img src="images/IMG_5471.jpeg" class="img-responsive" alt="portfolio img"> -->
 					<a href="https://wenzetech.com" 
-						target="_blank" class="btn btn-danger btn-block mt-3">
+						target="_blank" class="btn btn-danger btn-block">
 						Voir le projet
 					</a>
 				</div>
-				<div class="col-md-4 col-xs-11 wow fadeInUp" data-wow-delay="0.6s">
+				<div class="col-md-4 col-xs-11 wow fadeInUp project-card" data-wow-delay="0.6s">
 					<h3>Vote academia</h3>
-					<p>Plateforme en ligne dédiée à la gestion des élections académiques, offrant une interface sécurisée et conviviale pour organiser et participer à des votes au sein des institutions éducatives. Vote Academia assure la transparence et l'efficacité du processus électoral, permettant aux étudiants et au personnel de voter en toute sécurité et simplicité depuis n'importe où.</p>
-					<img src="https://voteacademia-file.s3.us-east-1.amazonaws.com/images/6e1c21f7.jpg" class="img-responsive rounded-sm" alt="portfolio img">
+					<p class="project-desc">Plateforme en ligne dédiée à la gestion des élections académiques, offrant une interface sécurisée et conviviale pour organiser et participer à des votes au sein des institutions éducatives. Vote Academia assure la transparence et l'efficacité du processus électoral, permettant aux étudiants et au personnel de voter en toute sécurité et simplicité depuis n'importe où.</p>
+					<div class="project-media">
+						<img src="https://voteacademia-file.s3.us-east-1.amazonaws.com/images/6e1c21f7.jpg" class="img-responsive" alt="Capture d'écran Vote Academia" loading="lazy" decoding="async">
+					</div>
 					<!-- <video src="images/VIDEO-2024-07-26-21-17-19.mp4" autoplay="off" controls class="img-responsive" alt="portfolio img"></video> -->
 					 <a href="https://www.voteacademia.com/" 
-					 	target="_blank" class="btn btn-danger btn-block mt-3">
+					 	target="_blank" class="btn btn-danger btn-block">
 						Voir le projet
 					</a>
 				</div>
-				<div class="col-md-4 col-xs-11 wow fadeInUp" data-wow-delay="0.6s">
-					<h3>StageHub</h3>
-					<p>Plateforme de mise en relation entre étudiants et entreprises pour faciliter la recherche de stages et la gestion des candidatures. StageHub centralise les opportunités professionnelles, simplifie le suivi des stages et améliore la collaboration entre les établissements académiques et les structures d'accueil.</p>
-					<img src="https://stagehub.gonedev.com/static/media/logo.34c28a80a9383a4046df.png" class="img-responsive" alt="StageHub logo">
-					<a href="https://stagehub.gonedev.com/" 
-						target="_blank" class="btn btn-danger btn-block mt-3">
+				<div class="col-md-4 col-xs-11 wow fadeInUp project-card" data-wow-delay="0.6s">
+					<h3>ApkStore</h3>
+					<p class="project-desc">ApkStore est une plateforme de distribution d'applications mobiles (APK) pour les appareils Android. Elle permet aux utilisateurs de télécharger et installer des applications sans passer par le Google Play Store, offrant une alternative pour accéder à des applications non officielles.</p>
+					<div class="project-media">
+						<img src="/images/apkstores.png" class="img-responsive" alt="Logo ApkStore" loading="lazy" decoding="async">
+					</div>
+					<a href="https://apkstores.gonedev.com/" 
+						target="_blank" class="btn btn-danger btn-block">
 						Voir le projet
 					</a>
 				</div>
